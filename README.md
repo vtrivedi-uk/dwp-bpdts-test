@@ -30,9 +30,10 @@ The solution has one GET rest endpoint that allows parameters to determine the d
 search.
 
 To return all users within 50 miles of London:
-
-GET http://localhost:9090/api/users/within/50/miles/of/london
-
+`
+GET http://localhost:8686/api/users/within/50/miles/of/london
+`
 To search with different parameters, replace the values in the angle brackets:
-
-GET `http://localhost:9090/users/within/<distance>/<unit>/of/<city>`
+`
+GET `http://localhost:8686/users/within/<distance>/<unit>/of/<city>`
+`
